@@ -19,7 +19,7 @@ Here's a sample script if you're getting the attachment from a CRM Deal record (
 att = zoho.crm.getRelatedRecords("Attachments", "Deals", dealid);
 file = invokeurl
 [
-	url: "https://www.zohoapis.com/crm/v2/Deals/" + dealid + "/Attachments/"+att.get(0).get("id")
+	url: "https://www.zohoapis.com/crm/v2/Deals/" + dealid + "/Attachments/" + att.get(0).get("id")
 	type: GET
 	connection:"crm_oauth_connection"
 ];
