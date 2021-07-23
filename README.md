@@ -13,7 +13,7 @@ Zoho OAuth scopes needed:
 
 ### 1. Download the File
 First, you need to download the file in your Deluge script. Your file can be from Zoho CRM attachments, WorkDrive, or any other places.
-Here's a sample script for you're getting the attachment from a CRM Deal record (assuming there's only 1 attachment there).
+Here's a sample script if you're getting the attachment from a CRM Deal record (assuming there's only 1 attachment there).
 
 ```javascript
 att = zoho.crm.getRelatedRecords("Attachments", "Deals", dealid);
