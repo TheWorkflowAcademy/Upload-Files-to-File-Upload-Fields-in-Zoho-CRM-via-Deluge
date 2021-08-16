@@ -1,6 +1,9 @@
 # Upload-Files-to-File-Upload-Fields-in-Zoho-CRM-via-Deluge
 A Deluge script for uploading files to a file upload field in Zoho CRM.
 
+## Core Idea
+To upload files to a file upload field in Zoho CRM via Deluge, you need to download the files, set the "paramname" parameter as "file" to them, upload them to ZFS via invokeURL, organize the data and update the CRM record. Here's the tutorial and sample code.
+
 ## Configuration
 Zoho OAuth scopes needed:
 * ZohoCRM.files.CREATE
