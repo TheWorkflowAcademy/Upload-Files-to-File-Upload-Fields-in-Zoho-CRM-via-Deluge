@@ -30,9 +30,8 @@ info file;
 Then, apply "setParamname("file") on the file variable.
 * The "setParamName" built-in function is used to set the specified name for the file object that needs to be sent in multipart form-data using invokeUrl later.
 ```javascript
-file.setparamname("file_name");  
+file.setparamname("file");  
 ```
-_Replace "file_name" with a relevant name or use the getFileName() function to get the file name of your file_
 
 ### 3. Upload the file to ZFS (Zoho File Systems) via invokeURL
 Before updating the file to the file uplaod field on CRM, we first need to upload it to ZFS. Then, get the file ID.
